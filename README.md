@@ -2,7 +2,7 @@
 Fuzzing tool with GUI for easy visualization of target schema 
 
 Outline
-capture request
+capture request\n
 import request
 -import wordlist
 -stop after x errors
