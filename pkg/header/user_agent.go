@@ -7,10 +7,10 @@ import (
 )
 
 var (
-	browsers  = []string{"Mozilla", "Chrome", "Safari", "Opera", "Edge", "Internet Explorer"}
-	osList    = []string{"Windows NT 10.0; Win64; x64", "Macintosh; Intel Mac OS X 10_15_7", "X11; Linux x86_64", "iPhone; CPU iPhone OS 13_2_3 like Mac OS X", "Windows NT 6.1; Win64; x64"}
+	browsers = []string{"Mozilla", "Chrome", "Safari", "Opera", "Edge", "Internet Explorer"}
+	osList   = []string{"Windows NT 10.0; Win64; x64", "Macintosh; Intel Mac OS X 10_15_7", "X11; Linux x86_64", "iPhone; CPU iPhone OS 13_2_3 like Mac OS X", "Windows NT 6.1; Win64; x64"}
 	languages = []string{"en-US", "en-GB", "es-ES", "fr-FR", "de-DE", "ru-RU", "ja-JP", "zh-CN"}
-	versions  = map[string][]string{
+	versions = map[string][]string{
 		"Mozilla":           {"5.0", "4.0", "3.5"},
 		"Chrome":            {"91.0.4472.124", "92.0.4515.159", "93.0.4577.63"},
 		"Safari":            {"537.36", "537.31", "534.30"},
